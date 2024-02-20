@@ -1,0 +1,71 @@
+header{
+    background-color: bisque;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+header div span:first-child a{
+    color: blueviolet; 
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header div span:nth-child(2) a{
+    color: red;
+    font-size:25px;
+    margin-right: 20px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+header div span:nth-child(3) a{
+    color: rgb(174, 148, 20);
+    font-size: 42px;
+}
+main{
+    background-color: rgb(222, 212, 198);
+}
+main p:nth-child(1){
+    color: rgb(54, 38, 15);
+    padding: 20px;
+    font-size: 20px;
+}
+main p:nth-child(2){
+    color: red;
+    background-color: black;
+    border: 2px;
+    padding: 18px;
+    margin: 20px;
+}
+main p:nth-child(3){
+    color: white;
+    background-color: rgb(199, 52, 52);
+    border: 2px;
+    padding: 18px;
+    margin: 20px ;
+    font-size: 25px;
+}
+footer{
+    background-color: blue;
+    height: 200px;
+    padding: 40px;
+    margin: 10px;
+}
+footer div{
+    margin: auto;
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    padding: 20px;
+}
+
+
+
+
+
+
