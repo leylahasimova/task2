@@ -74,29 +74,20 @@ footer div span{
     font-size: 20px;
     margin: 20px;
 }
-
-main div img:first-child{
-    width: 250px;
-    height: 250px;
+footer div>span:nth-child(3){
+    color: yellow;
+    font-size: 30px;
 }
-main div img:nth-child(2){
-    width: 150px ;
-    height: 150px;
-}
-main div img:nth-child(3){
-    width: 250px;
-    height: 250px;
-    
-}
-img{
-    border: 3px solid rgb(171, 128, 128);
-    
+h3{
+    font-size: 30px;
+    color: rgb(18, 78, 98);
+    font-weight: lighter;
+    padding: 10px 10px 2px 30px;
 }
 main div{
-    padding: 0 350px;
+    font-weight: bold;
+    font-size: 26px;
+    color: aliceblue;
 }
-
-
-
 
 

@@ -1,0 +1,85 @@
+header{
+    background-color: bisque;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+header div span:first-child a{
+    color: rgb(87, 20, 150); 
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 20px;
+}
+header div span:nth-child(2) a{
+    color: red;
+    font-size:25px;
+    margin-right: 20px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+header div span:nth-child(3) a{
+    color: rgb(5, 148, 43);
+    font-size: 20px;
+    font-size: 30px;
+}
+main{
+    background-color: rgb(220, 209, 193);
+}
+
+/* header div span:nth-child(4) a{
+    color: rgb(5, 148, 43);
+    font-size: 20px;} */
+
+    header div span :last-child{
+        padding-left: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    main div:first-child{
+        background-color: #a9805a;
+        padding: 20px;
+        border-radius: 5px;
+        width: 500px;
+        margin: auto;
+    }
+    main div:nth-child(2) {
+        background-color: #B2A59B;
+        padding: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    footer div{
+        margin: auto;
+        background-color: rgb(179, 53, 53);
+        width: 30%;
+        padding: 30px;
+    }
+    footer div span{
+        font-size: 20px;
+        margin: 20px;
+    }
+    footer div span:nth-child(2){
+        color: yellow;
+        font-size: 30px;
+    }
+    footer{
+        background-color: blue;
+        /* width: 400px; */
+        margin: auto;
+        padding: 40px;
+        /* margin: 10px; */
+    }
+    footer div{
+        margin: auto;
+        background-color: rgb(179, 53, 53);
+        width: 30%;
+        padding: 30px;
+    }
+    
